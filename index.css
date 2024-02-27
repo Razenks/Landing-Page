@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-image: linear-gradient(to right,#0f0f3a, #161A59, #1D2173, #262c99, #2a30aa );
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-logo {
+    width: 70x;
+    height: 70px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 100px;
+}
+
+.cabecalho-menu-item {
+    color: rgb(218, 208, 247);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.3px solid rgb(180, 176, 176);
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.conteudo-principal-escrito-texto {
+    font-size: 20px;
+    color: white;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: rgb(20, 20, 194);
+    width: 130px;
+    height: 45px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(194, 196, 219);
+    border-radius: 50px;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgb(0, 3, 10);
+    color: rgb(255, 255, 255);
+    transform: translateY(-10px);
+}
+
+.conteudo-principal-imagem {
+    height: 200px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 1px solid white;
+    padding-top: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgb(207, 186, 186);
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+.rodape {
+    padding: 25px;
+    border-top: 1px solid white;
+}
+
+.rodape-imagem {
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}
